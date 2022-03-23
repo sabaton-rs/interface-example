@@ -9,7 +9,8 @@ use async_trait::async_trait;
 
 
 
-#[service(name("dev.sabaton.ExampleInterface")
+#[service(name("dev.sabaton.ExampleInterface"),
+    version(1,0),
     fields([1]status:ExampleStatus)
 )]
 #[async_trait]
