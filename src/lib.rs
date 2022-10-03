@@ -21,7 +21,6 @@ pub trait Example {
     
 }
 
-
 #[derive(Serialize, Deserialize,Clone, Default)]
 pub struct EchoResponse  {
     pub echo : String,
