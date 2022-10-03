@@ -6,8 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-someip = {git = "https://github.com/sjames/someip.git"}
-someip_derive = {git = "https://github.com/sjames/someip.git"}
+someip = "0.1.0"
+someip_derive = "0.1.0"
 thiserror = "1.0"
 serde = { version = "1", features = ["derive"] }
 async-trait = "0.1.31"
